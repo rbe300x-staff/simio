@@ -1,0 +1,12 @@
+motors: {left: DynamicLeftJoint, right: DynamicRightJoint}
+name: LineTracer
+sensors: {0: LeftSensor, 1: MiddleSensor, 2: RightSensor}
+geometry:
+  wheel_radius: 0.027
+  track_width: 0.1163
+  base_yaw_offset: -3.1416
+  line_sensors:
+  - [0.1284, 0.0225]
+  - [0.1284, -0.0]
+  - [0.1284, -0.0225]
+  line_sensor_radius: 0.005

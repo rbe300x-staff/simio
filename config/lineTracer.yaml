@@ -1,0 +1,8 @@
+motors:
+  left: DynamicLeftJoint
+  right: DynamicRightJoint
+name: LineTracer
+sensors:
+  0: LeftSensor
+  1: MiddleSensor
+  2: RightSensor
